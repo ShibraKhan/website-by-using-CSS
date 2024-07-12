@@ -1,0 +1,113 @@
+*{
+    background-color: #848884;
+     color:#D3D3D3;
+}
+.mainheading{
+  font-family: Copperplate, Papyrus, fantasy;
+  font-style: oblique;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 0.3em;
+    color: black;
+}
+    p{
+        font-size: 16px;
+        line-height: 30px;
+        text-align: left;
+        margin-left: 20px;
+        margin-right: 20px;
+      
+        
+    }
+   
+    .mainp{
+        text-align: center;
+        text-decoration-line: underline;
+        line-height: 1.5;
+        font-size: 20px;
+       
+     }
+    
+     h1{
+        font-size: 50px;
+        text-shadow:  2px 2px #666452;
+        text-decoration: underline;
+        text-transform: capitalize;
+        color:	#36454F;
+     }
+
+
+ 
+ .webdesign{
+    border: 3px solid black;
+    margin: 8px;
+    padding: 10px;
+
+ }
+
+ .grid-container1{
+
+display: grid; 
+grid-template-areas: 'grid-item1 grid-item1 grid-item1 grid-item2 grid-item2 ';
+
+
+
+}
+
+
+
+ .ecommerce{
+    border: 3px solid black;
+    margin: 8px;
+    padding: 10px;
+
+ }
+ .grid-container2{
+    display: grid; 
+    grid-template-areas: 'grid-item1 grid-item1 grid-item1 grid-item2 grid-item2';
+ }
+ .webdevelop{
+    border: 3px solid black;
+    margin: 8px;
+    padding: 10px;
+
+ }
+ .grid-container3{
+    display: grid; 
+    grid-template-areas: 'grid-item1 grid-item1 grid-item1  grid-item2 grid-item2  ';
+ }
+ 
+
+ .grid-container1 img {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    }
+    
+    .grid-container1 img:hover {
+    -webkit-filter: brightness(100%);
+    }
+
+    .grid-container2 img{
+        transition: 1s ease;
+        }
+        
+        .grid-container2 img:hover{
+        -webkit-transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        transform: rotateZ(-10deg);
+        transition: 1s ease;
+        }
+        .grid-container3 img {
+            transition: 1s ease;
+            }
+            
+            .grid-container3 img:hover {
+            border-radius:50%;
+            transition: 1s ease;
+            }

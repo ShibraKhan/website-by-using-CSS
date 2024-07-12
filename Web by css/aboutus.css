@@ -1,0 +1,44 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px  #848884;
+
+    font-style: oblique;
+}
+.mainp{
+  
+    font-size: 50px;
+    text-decoration: underline;
+    text-indent: 100px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
+ 
+
+h2{
+    margin-left: 10px;
+    font-size: 18px;
+    text-decoration: underline;
+    
+} 
+p{
+
+margin-left: 10px;
+line-height: 20px;
+font-size: 18px;
+}
+ul{
+   list-style: square;
+}
+ul>li{
+
+    line-height: 30px;
+}
+.main{
+    border: 6px solid black;
+}
